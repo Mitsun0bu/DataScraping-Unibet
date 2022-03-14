@@ -83,8 +83,8 @@ driver.quit()
 
 # ========================== KEEPING GAMES WITH 2.80 < DRAW ODDS 3.50 ========================== #
 for i in range(0, n_games, 1):
-	if float(draw_odds[i]) > 2.80 and float(draw_odds[i]) < 3.50 : good_odds.append(draw_odds[i])
-	if float(draw_odds[i]) > 2.80 and float(draw_odds[i]) < 3.50 : good_games.append(all_games[i])
+	if float(draw_odds[i]) > 2.62 and float(draw_odds[i]) < 3.50 : good_odds.append(draw_odds[i])
+	if float(draw_odds[i]) > 2.62 and float(draw_odds[i]) < 3.50 : good_games.append(all_games[i])
 
 # ==== CREATING A DICTIONNARY W/ DATA OF INTEREST ==== #
 bet_dico = {'Games': good_games, 'Draw Odds': good_odds}
